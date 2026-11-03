@@ -1,0 +1,25 @@
+{
+  "name": "chronotab",
+  "version": "1.0.0",
+  "description": "Log time on GitHub issues in ChronoTab from Cursor: start and stop timers, log entries, find missing days and check client hours.",
+  "author": {
+    "name": "NFN Labs",
+    "email": "support@chronotab.com"
+  },
+  "homepage": "https://chronotab.com/docs/your-account/use-chronotab-from-your-ai-assistant/",
+  "repository": "https://github.com/nfnlabs/chronotab-cursor-plugin",
+  "license": "MIT",
+  "keywords": ["time tracking", "timesheets", "github issues", "productivity"],
+  "logo": "assets/logo.svg",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "CHRONOTAB_API_KEY": {
+        "type": "string",
+        "title": "ChronoTab API key",
+        "description": "Create one in ChronoTab under Profile, AI assistant."
+      }
+    },
+    "required": ["CHRONOTAB_API_KEY"]
+  }
+}
